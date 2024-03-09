@@ -1,4 +1,7 @@
 const readline = require("readline");
+const chalk = require("chalk");
+
+const log = console.log;
 
 // Create readline interface
 const rl = readline.createInterface({
@@ -8,6 +11,6 @@ const rl = readline.createInterface({
 
 // Ask a question
 rl.question("What is your name? ", (name) => {
-  console.log(`Hello, ${name}!`);
+  log(chalk.blue("Hello, ") + chalk.bgBlue.bold(name));
   rl.close();
 });

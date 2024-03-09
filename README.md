@@ -1,4 +1,4 @@
-**Task: Create a Node.js Command-Line Text Adventure Game**
+### Task: Create a Node.js Command-Line Text Adventure Game
 
 **Objective**: Build an interactive text-based adventure game that runs in the command line. The game should present the user with story scenarios and choices that impact the direction of the game. Complete story is mentioned in `STORY.md`
 
@@ -38,3 +38,6 @@
 3. Use appropriate data structures and algorithms to manage the story data, player state, and game logic.
 
 You can use any libraries or frameworks you're familiar with, but be prepared to explain your choices and trade-offs during the code review. Creativity and effective storytelling should be the primary focus of this task.
+
+### Chalk documentation
+![DOC](https://raw.githubusercontent.com/chalk/chalk/HEAD/media/screenshot.png)
